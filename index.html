@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Snake in love</title>
+    <style>
+        #gift_img {
+            transition: opacity 1s;
+        }
+    </style>
+    <script type="text/javascript" src="snake.js"></script>
+</head>
+
+<body>
+    <div style="display:flex">
+        <canvas id="viewport" width="640" height="480"></canvas>
+        <div
+            style="background-color: #ecbad0; flex:1 1 auto; border: 1.5em solid #c78ca0; display: flex; justify-content: center;">
+            <div style="margin: 0 auto; text-align: center;">
+                <img src="/assets/gift.png" style="margin: 15px; max-width: 360px; max-height: 360px;" id="gift_img"
+                    alt="present_image_thumb">
+                <h1 id="score">0 meses</h1>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
